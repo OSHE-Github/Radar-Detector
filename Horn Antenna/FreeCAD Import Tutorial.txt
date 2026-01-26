@@ -1,0 +1,17 @@
+How to Import the generated stl file into FreeCAD
+
+1. Create New File, Parametric Part
+2. Go to File and then press Import. (or press Ctrl + I)
+3. Navigate to Correct Folder and open correct .stl File 
+
+How to Convert Imported Mesh to Solid in FreeCAD
+
+1. Switch Workbench
+ 1.A. In the top center dropdown menu (which usually says "Start"), switch to the Part Workbench. On modern Versions it may be called just Part
+
+2. In Create Shape Tab
+ 2.A. Select the antenna mesh in the Model tree (on the left side of the screen).
+ 2.B. Go to the top menu: Part and Create shape from mesh.
+ 2.C. A popup will appear asking for "Tolerance for sewing shape." Leave it at 0.10 and click OK.
+
+ 3. Convert to Solid 
