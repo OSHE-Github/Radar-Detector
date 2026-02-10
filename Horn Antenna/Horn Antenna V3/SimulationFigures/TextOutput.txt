@@ -1,0 +1,3 @@
+radiated power: Prad = 4.9906e-30 Watt
+directivity: Dmax = 19.3834 dBi
+aperture efficiency: e_a = 57.7899%
