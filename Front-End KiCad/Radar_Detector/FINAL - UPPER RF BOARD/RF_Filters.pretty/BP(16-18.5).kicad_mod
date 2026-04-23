@@ -1,0 +1,111 @@
+(footprint "BP(16-18.5)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "47bbaacb-6fca-482d-bfab-fe05b6cb5c4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BP(16-18.5)"
+		(at 0.5 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "171b65b6-de3e-4e03-bdef-f43c5ad16e2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d290127-9687-410f-8b07-6f21c2be308b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34d4a2db-bf4c-48c9-a668-9b4e08071bc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0a86b45-d5ac-4225-ab2d-4fe20c240a47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.102 2.49993)
+		(layers "F.Cu")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "86b0f691-ddee-48c2-93e3-0546eaccec57")
+	)
+	(pad "2" smd rect
+		(at 1.7569 0.047465)
+		(size 1.102 2.405)
+		(layers "F.Cu")
+		(uuid "c949cdd7-f535-477d-a187-1f14ef7074fb")
+	)
+	(pad "3" smd rect
+		(at 3.7015 0.047465)
+		(size 1.102 2.405)
+		(layers "F.Cu")
+		(uuid "aaffdf21-11ee-49d4-8b0e-5731dff6c1c5")
+	)
+	(pad "4" smd rect
+		(at 5.6461 0.047465)
+		(size 1.102 2.405)
+		(layers "F.Cu")
+		(uuid "b09196fa-b5e3-4c57-90e1-01f452e8a3fd")
+	)
+	(pad "5" smd rect
+		(at 7.403 0)
+		(size 1.102 2.49993)
+		(layers "F.Cu")
+		(uuid "33e417ee-a637-454a-8100-8e089d04a3f9")
+	)
+	(embedded_fonts no)
+)
